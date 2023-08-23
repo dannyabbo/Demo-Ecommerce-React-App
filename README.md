@@ -9,6 +9,12 @@ This project serves as a showcase of fundamental understanding of React and the 
 - View Cart: View the list of products in the shopping cart.
 - Edit Cart: Modify and update the cart's contents.
 
+## Getting Started
+
+To explore the app and its functionality:
+
+ - Clone the repo, CD into the directory and use "NPM start" to run the App.
+
 ## Global State Management
 
 The global state management in this project is achieved using the `useContext` hook. The `ShopContext` provides the necessary context for sharing cart-related data across different components. This allows for seamless communication between various parts of the application without the need to pass props down the component tree.
