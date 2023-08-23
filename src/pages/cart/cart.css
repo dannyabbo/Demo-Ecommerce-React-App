@@ -1,0 +1,124 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cart h2{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--accent-light-grey);
+    width: 100%;
+}
+
+.cart h3 {
+    color: var(--accent-dark-grey);
+    margin-bottom: 50px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.cartItems{
+    width: 100%;
+}
+
+.cartItem {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: solid 2px var(--accent-light-grey)
+}
+
+.cartItem .image-wrapper {
+    height: 100%;
+    width: 100%;
+    max-height: 100px;
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartItem .image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cartItem .description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.countHandler input {
+    width: 60px;
+    height: 24px;
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid var(--main-black);
+    border-left: 0;
+    border-right: 0;;
+}
+
+.countHandler button {
+    width: 30px;
+    height: 30px;
+    background-color: var(--main-black);
+    color: var(--main-white);
+    border: 2px solid var(--main-black);
+    text-align: center;
+    border-radius: 5px;
+    vertical-align: center;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.countHandler button:first-of-type{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.countHandler button:last-of-type{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.countHandler button:hover {
+    background-color: var(--accent-one);
+    border: 2px solid var(--accent-one);
+    color: var(--main-white);
+    cursor: pointer;
+}
+
+.checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: var(--main-black);
+    color: var(--main-white);
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.checkout button:hover {
+    background-color: var(--accent-one);
+    border: 2px solid var(--accent-one);
+    color: var(--main-white);
+    cursor: pointer;
+}
+
+.checkout button:disabled {
+    background-color: var(--accent-dark-grey);
+    border: 2px solid var(--accent-dark-grey);
+    color: var(--accent-light-grey);
+    opacity: 0.6;
+    cursor: pointer;
+}
